@@ -1,0 +1,21 @@
+.menubar {
+  width: 100%;
+}
+.menubar .top {
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.menubar div {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 59px;
+  margin: 0 auto;
+}
+.logo a {
+  display: block;
+  width: 86px;
+  height: 59px;
+  background-image: url(../images/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

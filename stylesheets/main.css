@@ -1,0 +1,67 @@
+body.bg {
+  background-image: url(../images/mockups/1440.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+section .mainSection {
+  position: relative;
+  width: 1440px;
+  height: 740px;
+}
+.mainSection section {
+  position: absolute;
+  top: 131px;
+  width: 538px;
+}
+.mainSection h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+  padding-bottom: 26px;
+}
+.mainSection p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+}
+.mainSection figure::before {
+  content: '';
+  position: absolute;
+  top: 470px;
+  left: 160px;
+  width: 30px;
+  height: 5px;
+  background-color: #e2e2e2;
+}
+.mainSection.left section {
+  left: 160px;
+}
+.mainSection.right section {
+  right: 103px;
+}
+.mainSection.center section {
+  position: absolute;
+  left: 50%;
+  margin-left: -355px;
+  width: 710px;
+  text-align: center;
+}
+.mainSection.center,
+.mainSection.right {
+  color: #ffffff;
+  background-color: rgb(135, 150, 150);
+}
+
+.mockup {
+
+}
+#mockup_1 {
+
+}

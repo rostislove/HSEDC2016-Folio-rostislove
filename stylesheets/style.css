@@ -1,0 +1,6 @@
+@import 'reset.css'; /* сброс стилей */
+@import 'https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&subset=cyrillic'; /* шрифты */
+@import 'social-likes_birman.css'; /* social share */
+
+@import 'main.css';
+@import 'header.css';
