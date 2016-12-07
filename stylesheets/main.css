@@ -9,10 +9,11 @@ body.bg {
   margin: 0 auto;
 }
 
-section .mainSection {
+.mainSection {
   position: relative;
   width: 1440px;
   height: 740px;
+  margin-top: 60px;
 }
 .mainSection section {
   position: absolute;
@@ -31,25 +32,16 @@ section .mainSection {
   font-size: 21px;
   line-height: 36px;
 }
-.mainSection figure::before {
-  content: '';
-  position: absolute;
-  top: 470px;
-  left: 160px;
-  width: 30px;
-  height: 5px;
-  background-color: #e2e2e2;
-}
 .mainSection.left section {
-  left: 160px;
+  left: 152px;
 }
 .mainSection.right section {
-  right: 103px;
+  right: 111px;
 }
 .mainSection.center section {
   position: absolute;
   left: 50%;
-  margin-left: -355px;
+  margin-left: -365px;
   width: 710px;
   text-align: center;
 }
@@ -58,10 +50,85 @@ section .mainSection {
   color: #ffffff;
   background-color: rgb(135, 150, 150);
 }
+.mainSection figure {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin-top: 58px;
+  background-image: url(../images/pattern.png);
+}
+.mainSection.right figure {
+  margin-left: 1px;
+}
+.mainSection.center nav {
+  padding-top: 57px;
+}
+.mainSection.center nav a {
+  display: block;
+  margin: 0 auto;
+}
+.mainSection.center footer {
+  position: absolute;
+  bottom: 31px;
+  left: 553px;
+  text-align: center;
+}
+.mainSection.center footer p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
 
 .mockup {
-
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #mockup_1 {
+  top: 115px;
+  right: 168px;
+  width: 530px;
+  height: 566px;
+  background-image: url(../images/section_1.png);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+}
+#mockup_2-1 {
+  top: 75px;
+  left: 151px;
+  width: 140px;
+  height: 316px;
+  background-image: url(../images/about.png);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
+#mockup_2-2 {
+  top: 75px;
+  left: 324px;
+  width: 140px;
+  height: 395px;
+  background-image: url(../images/works.png);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
+#mockup_2-3 {
+  top: 75px;
+  left: 497px;
+  width: 140px;
+  height: 475px;
+  background-image: url(../images/work.png);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
+#mockup_3 {
+  top: 225px;
+  right: 48px;
+  width: 760px;
+  height: 403px;
+  background-image: url(../images/section_3.png);
+}
 
+
+@media all (min-width: 1441px) {
+  body {
+    border-left: 120px solid #e2e2e;
+    border-right: 120px solid #e2e2e;
+  }
 }
