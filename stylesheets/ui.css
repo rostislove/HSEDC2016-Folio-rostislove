@@ -1,7 +1,9 @@
 .btn {
+  display: block;
   text-decoration: none;
   background-color: #77ffe1;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  transition: all 0.5s ease;
 }
 
 .large {
@@ -20,4 +22,17 @@
   font-size: 16px;
   line-height: 26px;
   padding-top: 11px;
+}
+
+@media screen and (max-width: 1024px) {
+  .large {
+    width: 214px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+  }
+  .small {
+    font-size: 13px;
+    line-height: 15px;
+  }
 }
