@@ -142,7 +142,7 @@ body.bg {
   left: 160px;
   width: 140px;
   height: 316px;
-  background-image: url(../images/section_2-1.png);
+  background-image: url(../images/section_2-1.jpg);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
   z-index: 0;
 }
@@ -480,7 +480,7 @@ body.bg {
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) {
     #mockup_1 {
-      background-image: url(../images/section_1@2x.png);
+      background-image: url(../images/section_1@2x.jpg);
     }
 
     #mockup_2-1 {
@@ -488,14 +488,14 @@ body.bg {
     }
 
     #mockup_2-2 {
-      background-image: url(../images/section_2-2@2x.png);
+      background-image: url(../images/section_2-2@2x.jpg);
     }
 
     #mockup_2-3 {
-      background-image: url(../images/section_2-3@2x.png);
+      background-image: url(../images/section_2-3@2x.jpg);
     }
     #mockup_3 {
-      background-image: url(../images/section_3@2x.png);
+      background-image: url(../images/section_3@2x.jpg);
       z-index: 0;
     }
 }
