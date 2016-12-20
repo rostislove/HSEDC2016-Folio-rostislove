@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
   .menubar {
     height: 42px;
   }

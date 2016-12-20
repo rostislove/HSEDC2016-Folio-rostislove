@@ -1,0 +1,46 @@
+/* Folio Typography */
+
+/* Lagre */
+@media screen and (min-width: 1181px) {
+  .mainSection h2 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  .mainSection p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    line-height: 36px;
+  }
+
+  .mainSection.center footer p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Small */
+@media screen and (max-width: 1180px) {
+  .mainSection h2 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .mainSection p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .mainSection.center footer p {
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 10px;
+  }
+}
